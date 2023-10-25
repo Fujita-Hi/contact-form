@@ -1,0 +1,146 @@
+.search-form__heading {
+    text-align: center;
+}
+
+.search-form__item--border {
+    display: block;
+    height: 250px;
+    width: 90%;
+    margin: 25px auto;
+    border: 2px solid black;
+}
+
+.search-form__item {
+    height: 100%;
+    margin: 0 20px;
+}
+
+.search-form__item--line {
+    position: relative;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.search__label--item {
+    padding-left: 30px;
+}
+
+.form__input--text1,
+.form__input--text2 {
+    position: absolute;
+    left: 200px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--text2 {
+    left: 510px;
+}
+
+.serch-form__item--row2 {
+    position: absolute;
+    top: 20px;
+    left: 450px;
+}
+
+.form_input--radio {
+    margin: 0 30px;
+}
+
+.form__input--textspan {
+    position: absolute;
+    left: 450px;
+}
+
+.search__button-submit {
+    display: block;
+    margin: auto;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.search__button-reset {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #0033cc;
+    text-decoration: underline;
+}
+
+.search__button-reset:hover {
+
+    color: #002080;
+}
+
+.contact-table {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin: auto;
+    width: 90%;
+    text-align: left;
+}
+
+.contact-table__header {
+    border-bottom: 2px solid black;
+}
+
+.contact-table__row {
+    text-align: left;
+}
+
+.contact-table__item-id {
+    width: 10%;
+}
+
+.contact-table__item-name {
+    width: 15%;
+}
+
+.contact-table__item-gender {
+    width: 10%;
+}
+
+.contact-table__item-email {
+    width: 15%;
+}
+
+.contact-table__item-content {
+    width: 35%;
+}
+
+.contact-table tr th:nth-child(1),
+.contact-table tr td:nth-child(1) {
+    text-align: center;
+}
+
+.delete-form__button-submit {
+    display: block;
+    width: 60px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#popup-container {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    z-index: 1;
+}

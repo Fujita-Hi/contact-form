@@ -1,0 +1,142 @@
+.todo__alert--success {
+    padding: 10px 30px;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.todo__alert--danger {
+    padding: 10px 0;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    color: #ff0000;
+}
+
+.form__example {
+    height: 20px;
+    color: #ddd;
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.form__example--firstname {
+    height: 20px;
+    color: #ddd;
+    text-align: left;
+    padding: 10px 0px 10px 240px;
+}
+
+.form__example--addrcode {
+    height: 20px;
+    color: #ddd;
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.form__error {
+    padding: 10px 0;
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form__input--radio {
+    display: inline-flex;
+    padding: 10px;
+    width: 600px;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__radio--female {
+    padding-left: 50px;
+}
+
+.form__input--label {
+    padding-left: 10px;
+}
+
+input#lastname,
+input#firstname {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+input#addrcode {
+    width: 575px;
+}
+
+.form__input--addrcode::before {
+    content: "〒";
+}
+
+.form__example--inline {
+    display: flex;
+}

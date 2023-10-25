@@ -1,0 +1,21 @@
+.thanks__content {
+    height: 100%;
+    padding: 30px 15px;
+    max-width: 1230px;
+    text-align: center;
+    margin: auto;
+}
+
+.thanks__heading {
+    margin-bottom: 40px;
+}
+
+.form__button-submit {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
